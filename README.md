@@ -5,3 +5,7 @@
 *Babyshark doodoodoodoodooo*
 
 ## Progress Report
+
+### Week_1
+*Create a Github account
+*Practice with Markdown
