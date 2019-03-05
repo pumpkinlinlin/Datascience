@@ -6,8 +6,8 @@
 
 ## Progress Report
 ### Week_1
-####1.Github
+_1.Github_
 * Create a Github account
 * Practice with Markdown
-####2.HW0
+_2.HW0_
 
