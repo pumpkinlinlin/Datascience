@@ -2,7 +2,7 @@
 107-2 Datascience
 
 ## Introducction
-*Babyshark doodoodoodoodooo*
+
 
 ## Progress Report
 ### Week_1
