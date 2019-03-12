@@ -9,6 +9,7 @@
 __1.Github__
 * Create a Github account
 * Practice with Markdown
+
 __2.HW0__
 * add notes in TA's code
 
