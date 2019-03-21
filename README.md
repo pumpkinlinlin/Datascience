@@ -14,4 +14,7 @@ __2.HW0__
 * add notes in TA's code
 
 ### Week_2
-__1.HW1__
+__1.crawler__
+* 嘗試爬取期貨資料
+
+__2.HW1__
