@@ -30,7 +30,7 @@ __HW2__
 
 * 首先從最好下手的性別進行分類，並且畫柱狀圖，看能得到什麼訊息
    * 分成四類，男/女/再購保險男/再購保險女
-![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/再購男女人數.png)
+![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/graph/再購男女人數.png)
 
 小結論：從比例上看，不管是否再購都是女性比例較高
 
@@ -53,7 +53,7 @@ size = [len(LIFE), len(ED), len(ILP) , len(PA), len(HEALTH), len(DAILY),len(CANC
 plt.axis('equal')
 plt.pie(size, labels = labels, autopct= "%1.1f%%")
 ```
-![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/保險類別.png)
+![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/graph/保險類別.png)
 
 小結論：再次購買的客戶，以壽險為銷售量最高的商品，再來依序是：健康保險、自理能力保險、退休金保險，大多是中老年後會需要的保險產品所以接下來希望從客戶年齡找出端倪
 
@@ -74,7 +74,7 @@ plt.xlabel('rebuy age')
 plt.ylabel('number')
 plt.show()
 ```
-![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/購買年齡.png)
+![image](https://github.com/pumpkinlinlin/Datascience/blob/master/hw1/graph/購買年齡.png)
 
 ## Week_3
 __自己嘗試爬取期貨資料__
