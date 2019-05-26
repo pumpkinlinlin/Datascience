@@ -1,21 +1,31 @@
 # 107-2 Datascience
-107-2 Datascience
-
-## Introducction
+###107-2 台大CS+X課程-Datascience
 
 
-## Progress Report
-### Week_1
+## Week_1
 __1.Github__
-* Create a Github account
-* Practice with Markdown
+* 創建GitHub帳號
+* 練習使用Markdown編輯README
 
 __2.HW0__
-* add notes in TA's code
+* 嘗試了解助教的code，並在code中，以#加上註解
+以下擷取部分
+```python
+#第六段
+#存pkl檔，用with語法開啟一個f，名為'data/liberty_times.pkl'，將all_data存進f
+import pickle 
+with open('data/liberty_times.pkl', 'wb') as f:
+    pickle.dump(all_data, f)
 
-### Week_2
-__1.crawler__
-* 嘗試爬取期貨資料
+#第七段
+#用pandas將資料做成表格
+import pandas as pd
+pd.DataFrame(all_data)[['date', 'title', 'link', 'content', 'tags']].head()
+```
+
+## Week_2 ~ Week_3
+__嘗試爬取期貨資料__
+
 
 __2.HW1__
 
