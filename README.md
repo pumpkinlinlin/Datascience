@@ -89,9 +89,18 @@ __嘗試爬取期貨資料__
 所以想自己利用python做做看分析，一切先 __從爬蟲爬取台指期的外資未平倉量開始__
 
 爬取目標有三：日期、淨交易量、淨留倉口數
+其中有個困難的點是，期交所的網頁稍微繁複了些，也不是改個網址就能前往下一頁，
+__所以用助教推薦給我的工具selenium__，這個工具可以模擬人的動作去操作網頁介面，我們只要告訴用katalon網頁錄影告訴它點擊的次序就行
+* 整體操作流程：
+整體操作流程:先用selenium找到要找頁面，用katalon可以記錄點按的流程，再用katalon匯出成python語言，
+再來是要找的資料，用selenium找xpath然後用網路上看到的選取方法//td[]之類的，選到自己要的資料，把它存在一個var形式會是list
+用反向輸出.index()找到所要的資料的index，再用var[i].text輸出要的數字，.text才能顯示數字
 
+於是就開始由今天開始，往歷史爬資料了，[前半部爬蟲的程式碼][1]
+[1]: https://github.com/pumpkinlinlin/Datascience/blob/master/%E5%8F%B0%E6%8C%87%E6%9C%9Fcrawler/%E7%88%AC%E5%88%B0201807%E4%BB%A5%E5%BE%8C.ipynb
 
-
+爬到一半，發現output的值變得奇怪，原來是在歷史某個日期點，資料的位置有改變過，於是又重新找出資料的位置，改一下程式碼再開始爬，[剩餘資料的爬蟲程式碼][2]
+[2]:https://github.com/pumpkinlinlin/Datascience/blob/master/%E5%8F%B0%E6%8C%87%E6%9C%9Fcrawler/trade_io_before201807.ipynb
 
 
 
