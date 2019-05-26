@@ -9,7 +9,7 @@ __Github__
 
 __HW0__
 * 嘗試了解助教的code，並在code中，以#加上註解
-以下擷取部分
+(以下擷取部分)
 ```python
 #第六段
 #存pkl檔，用with語法開啟一個f，名為'data/liberty_times.pkl'，將all_data存進f
@@ -25,7 +25,7 @@ pd.DataFrame(all_data)[['date', 'title', 'link', 'content', 'tags']].head()
 
 ## Week_2
 __HW2__
-* 練習 : 對南山人壽保險資料進行視覺化分析，重複著問問題與畫資料圖的過程
+* 練習 : 對南山人壽的保險資料進行視覺化分析，重複著問問題與畫資料圖的過程
 
 
 ## Week_3
